@@ -1,0 +1,36 @@
+.swiper {
+  width: 100%;
+  height: 70%;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50% !important;
+}
+
+.swiper-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  color: #2e53a3;
+}
+
+.swiper-pagination-bullet{
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+  color: #2E53A3;
+  opacity: 1;
+  background: #007aff;
+}
+
+.swiper-pagination-bullet-active {
+  color: #fff;
+}
