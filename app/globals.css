@@ -3,7 +3,20 @@
 @tailwind utilities;
 
 body {
-  margin: 0;
-  padding: 0;
-  box-sizing: content-box;
+  @apply text-base;
+}
+
+h1 {
+  @apply text-6xl;
+}
+h2 {
+  @apply text-xl;
+}
+
+h3 {
+  @apply text-4xl;
+}
+
+h4 {
+  @apply text-xl
 }

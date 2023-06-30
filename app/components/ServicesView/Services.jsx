@@ -5,16 +5,16 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 export default async function Services() {
   return (
-    <section id="services" className="h-[722px] w-full">
-      <div className="w-[80vw] h-full flex flex-row  items-center mx-auto">
-        <div className="services-left w-[40%] pr-[2%]">
-          <h2 className="text-[#3A67CC] mb-[18px] text-[20px]  text-[Inter] font-bold leading-[135.523%] uppercase ">
+    <section id="services" className="h-auto my-[20%]  lg:m-0 lg:h-[722px] w-full">
+      <div className=" w-[90vw] lg:w-[80vw] h-full flex flex-col lg:flex-row  items-center mx-auto">
+        <div className="services-left w-full lg:w-[40%] pr-[2%]">
+          <h2 className="text-[#3A67CC] mb-[18px]  font-bold leading-[135.523%] uppercase ">
             Servicios
           </h2>
-          <h4 className="text-[#0F0F0F] mb-[18px] text-[36px] text-[Inter] font-semibold leading-[124.523%]">
+          <h3 className="text-[#0F0F0F] mb-[18px] font-semibold leading-[124.523%]">
             Esta info te llega desde un servicio externo
-          </h4>
-          <p className="text-[#2C2C2C] mb-[18px] text-[18px] text-[Inter] font-light leading-[142.523%]">
+          </h3>
+          <p className="text-[#2C2C2C] mb-[18px]  font-light leading-[142.523%]">
             Consultando el servicio en
             https://react-frontend.pages.dev/slides.json, debes usar Context
             para enviar los datos que necesitas en la sección de abajo. A la
@@ -28,7 +28,7 @@ export default async function Services() {
             />
           </button>
         </div>
-        <div className="services-right w-[68%] h-full flex items-center ">
+        <div className="services-right w-full lg:w-[68%] h-full flex items-center ">
           <SwiperServices />
         </div>
       </div>

@@ -14,14 +14,18 @@ function Hero() {
         <Navbar />
       </div>
       <div className="relative w-full h-[722px]   bg-[#001853] shadow-[0_4px_35px_0_rgba(0, 0, 0, 0.39);]">
-        <Image className="absolute right-20" src={NumberBackground} alt="" />
+        <Image
+          className="absolute aspect-video h-[722px] right-20"
+          src={NumberBackground}
+          alt=""
+        />
         <div className="flex flex-row  h-full">
           <div id="hero-left" className="w-[50%] flex items-center pl-[8%] ">
             <div className="flex flex-col lg:w-[80%] ">
-              <h1 className="text-[#fff] text-[64px] font-extrabold leading-snug mb-[28px]">
+              <h1 className="text-[#fff] text- font-extrabold leading-snug mb-[28px]">
                 Es tiempo de maquetar
               </h1>
-              <p className="text-[#fff] text-[20px] leading-[135.523%]">
+              <p className="text-[#fff] leading-[135.523%]">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Aliquam accusamus accusantium eius, harum minima odit. Illo odio
                 consequuntur laudantium reprehenderit ipsa corporis nesciunt
@@ -33,7 +37,7 @@ function Hero() {
             <Image
               src={HeroImg}
               alt=""
-              className="absolute -bottom-[115px] w-full h-[95%] "
+              className="absolute -bottom-[115px] w-full h-[650px] "
             />
           </div>
         </div>
