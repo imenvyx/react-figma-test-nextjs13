@@ -17,7 +17,7 @@ function AboutUs() {
   return (
     <section
       id="about-us"
-      className=" lg:h-[722px] flex flex-col lg:flex-row justify-center items-center w-[90vw] xl:w-[80vw] mx-auto"
+      className=" lg:h-[722px] flex flex-col lg:flex-row justify-center items-center w-[85vw] xl:w-[80vw] mx-auto"
     >
       <div className="aboutUs-left w-full lg:w-[55%]  flex  justify-center">
         <div className="w-[553px] h-[545px]" id="img-canvas">
