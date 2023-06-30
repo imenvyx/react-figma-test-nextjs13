@@ -8,7 +8,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGreaterThan } from "@fortawesome/free-solid-svg-icons";
 
 function IconVariant({ variant, fill = "#2E53A3", className }) {
-  console.log(className);
   if (variant === "mobile")
     return <IconMobile className={`mb-[14px] ${className}`} fill={fill} />;
   else if (variant === "data_config")
@@ -24,7 +23,7 @@ function ServiceCard({ service }) {
     <div
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
-      className={`flex flex-col transition-colors p-[8%] w-[78%] h-[366px] shadow-[0_0_14px_0_rgba(11,27,0,0.10)]  ${
+      className={`flex flex-col transition-colors justify-center p-[4%] sm:p-[2vw] lg:p-[2vw] w-[300px] h-[366px]   shadow-[0_0_14px_0_rgba(11,27,0,0.10)]  ${
         hover ? "bg-[#2E53A3]" : "bg-[#fff]"
       }`}
     >

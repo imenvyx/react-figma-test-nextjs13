@@ -48,7 +48,7 @@ function Hero() {
           </div>
         </div>
       </div>
-      <div className="absolute -bottom-[40px] rounded-xl left-[20%] w-[122px] h-[122px] bg-[#001853] rotate-45 "></div>
+      <div className="absolute -bottom-[20px] lg:-bottom-[40px] rounded-xl left-[20%] w-[80px] lg:w-[122px] h-[80px] lg:h-[122px] bg-[#001853] rotate-45 "></div>
     </header>
   );
 }

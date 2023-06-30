@@ -39,7 +39,22 @@ function SwiperServicies() {
     <Swiper
       navigation={true}
       pagination={pagination}
-      slidesPerView={2}
+      slidesPerView={"auto"}
+      breakpoints={{
+        0: {
+          slidesPerView: 1,
+        },
+        854: {
+          slidesPerView: 2,
+        },
+        1024:{
+          slidesPerView: 1,
+        },
+        1360:{
+          slidesPerView: 2,
+        }
+      }}
+      
       modules={[Pagination, Navigation]}
       className="swiper-servicies"
     >

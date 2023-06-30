@@ -18,7 +18,7 @@ function Navbar() {
   return (
     <nav className="flex justify-around items-center flex-wrap max-w-[90vw] h-[86px] bg-[#FFF] m-[auto] rounded-lg shadow-[0_4px_35px_0_rgba(0, 0, 0, 0.39)]">
       <div className="lg:w-[60%]">
-        <FontAwesomeIcon icon={faBars}  className="inline-block w-12 h-10"/>
+        <FontAwesomeIcon icon={faBars}  className="inline-block w-12 h-10 lg:hidden"/>
         <ul className="hidden lg:flex lg:flex-row lg:justify-evenly  content-center uppercase text-[#000] text-center text-[16px] text-[Inter] leading-[135.523%]">
           {links.map((link) => (
             <li key={link.id} className="hover:text-[#2E53A3]">

@@ -7,7 +7,7 @@ export default async function Services() {
   return (
     <section id="services" className="h-auto my-16  lg:m-0 lg:h-[722px] w-full">
       <div className=" w-[85vw] lg:w-[80vw] h-full flex flex-col lg:flex-row  items-center mx-auto">
-        <div className="services-left w-full mb-16 lg:w-[40%] lg:pr-[2%]">
+        <div className="services-left w-full mb-6 lg:w-[40%] lg:pr-[2%]">
           <h2 className="text-[#3A67CC] mb-[18px]  font-bold leading-[135.523%] uppercase ">
             Servicios
           </h2>
@@ -28,7 +28,7 @@ export default async function Services() {
             />
           </button>
         </div>
-        <div className="services-right w-full lg:w-[68%] h-[500px] flex items-center ">
+        <div className="services-right w-screen lg:w-[68%] h-[500px] flex items-center ">
           <SwiperServices />
         </div>
       </div>

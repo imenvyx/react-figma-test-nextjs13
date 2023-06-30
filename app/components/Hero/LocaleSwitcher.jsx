@@ -37,11 +37,10 @@ export default function LocaleSwitcher() {
       >
         {["es", "en"].map((cur) => (
           <option key={cur} value={cur}>
-            {t("locale", { locale: cur })}
+            {`${t("locale", { locale: cur })}`}
           </option>
         ))}
       </select>
-      {/* <span className="pointer-events-none absolute top-[8px] right-2">⌄</span> */}
     </label>
   );
 }

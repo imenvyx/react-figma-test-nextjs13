@@ -19,8 +19,8 @@ function AboutUs() {
       id="about-us"
       className=" lg:h-[722px] flex flex-col lg:flex-row justify-center items-center w-[85vw] xl:w-[80vw] mx-auto"
     >
-      <div className="aboutUs-left w-full lg:w-[55%]  flex  justify-center">
-        <div className="w-[553px] h-[545px]" id="img-canvas">
+      <div className="aboutUs-left w-[80vw] pb-6 lg:pb-0  lg:w-[55%]  flex  justify-center">
+        <div className="w-[553px] h-auto" id="img-canvas">
           <div className="relative">
             <div className="relative grid grid-cols-[repeat(auto-fill, minmax(100px, 1fr))] gap-4 z-20">
               <div id="image-collage" className="col-end-2  row-[1/3]">
@@ -39,8 +39,8 @@ function AboutUs() {
                 <Image src={Img5} alt=""  />
               </div>
             </div>
-            <div className="absolute -top-[24px] -left-[24px] w-[15vw] sm:h-[346px] h-[25vw] sm:w-[198px] max-w-[198px]  max-h-[346px] rounded-[10px] bg-[#2E53A3]"></div>
-            <div className="absolute -bottom-[24px] -right-[24px] w-[15vw] h-[25vw] sm:h-[346px] sm:w-[198px] max-w-[198px] max-h-[346px] rounded-[10px] bg-[#2E53A3]"></div>
+            <div className="absolute -top-[24px] -left-[24px] w-[25vw] sm:h-[346px] h-[55vw] sm:w-[198px] max-w-[198px]  max-h-[346px] rounded-[10px] bg-[#2E53A3]"></div>
+            <div className="absolute -bottom-[24px] -right-[24px] w-[25vw] h-[55vw] sm:h-[346px] sm:w-[198px] max-w-[198px] max-h-[346px] rounded-[10px] bg-[#2E53A3]"></div>
           </div>
         </div>
       </div>

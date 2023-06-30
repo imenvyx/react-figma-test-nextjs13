@@ -7,7 +7,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50% !important;
+  
 }
 
 .swiper-wrapper {
@@ -35,9 +35,4 @@
   color: #fff;
 }
 
-@media (min-width: 1024px) {
-  .swiper {
-    width: 100%;
-    height: 70%;
-  }
-}
+
