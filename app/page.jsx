@@ -1,21 +1,6 @@
-"use client"
-import AboutUs from "./components/AboutUs/AboutUs";
-import Hero from "./components/Hero/Hero";
-import Services from "./components/ServicesView/Services";
-import ServicesProvider from "./contexts/ServicesProvider";
+import {redirect} from 'next/navigation';
 
-// Import Swiper styles
-
-function App() {
-  return (
-    <>
-      <ServicesProvider>
-        <Hero />
-        <Services />
-        <AboutUs />
-      </ServicesProvider>
-    </>
-  );
+// This page only renders when the app is built statically (output: 'export')
+export default function RootPage() {
+  redirect('/en');
 }
-
-export default App;

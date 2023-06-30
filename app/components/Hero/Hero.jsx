@@ -6,6 +6,7 @@ import Image from "next/image";
 import HeroImg from "../../../public/images/hero-img.png";
 import NumberBackground from "../../../public/images/clip-path-group.png";
 import Navbar from "./Navbar";
+
 function Hero() {
   return (
     <>

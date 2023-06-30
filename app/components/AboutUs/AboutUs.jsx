@@ -1,5 +1,7 @@
 import React from "react";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
+
 //Images
 import Img1 from "../../../public/images/collage/90.png";
 import Img2 from "../../../public/images/collage/91.png";
@@ -11,7 +13,7 @@ import "./about-us.css";
 
 import ListServices from "./ListServices";
 function AboutUs() {
-
+  const t = useTranslations("AboutUs");
   return (
     <section
       id="about-us"
@@ -43,19 +45,19 @@ function AboutUs() {
         </div>
       </div>
       <div className="aboutUs-right w-[40%] text-right pl-[5%]">
-        <h2 className="text-[#3A67CC] mb-[18px] text-[20px]  text-[Inter] font-bold leading-[135.523%] uppercase ">
+        <h2 className="text-[#3A67CC] mb-[18px] text-[20px]  font-bold leading-[135.523%] uppercase ">
           Sobre nosotros
         </h2>
-        <h4 className="text-[#0F0F0F] mb-[18px] text-[36px] text-[Inter] font-semibold leading-[124.523%]">
-          Traduce solo este título maravilloso y el navbar
+        <h4 className="text-[#0F0F0F] mb-[18px] text-[36px] font-semibold leading-[124.523%]">
+          {t("title")}
         </h4>
-        <p className="text-[#2C2C2C] mb-[18px] text-[18px] text-[Inter] font-light leading-[142.523%]">
+        <p className="text-[#2C2C2C] mb-[18px] text-[18px] font-light leading-[142.523%]">
           Usted debe tener un sólido conocimiento de HTML y CSS. Debe comprender
           la arquitectura de componentes de React. Debe tener buena atención al
           detalle, organización del código, habilidades de comunicación efectiva
           y capacidad para trabajar en equipo.
         </p>
-        <h4 className="text-[#606060] mb-[18px] text-right text-[22px] text-[Inter] font-bold leading-[124.523%]">
+        <h4 className="text-[#606060] mb-[18px] text-right text-[22px]  font-bold leading-[124.523%]">
           Usa Context para acceder a los títulos de abajo desde la sección
           anterior
         </h4>

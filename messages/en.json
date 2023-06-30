@@ -1,0 +1,17 @@
+{
+  "Navigation": {
+    "home": "Home",
+    "services": "Servicies",
+    "aboutUs": "About Us",
+    "tools": "Tools",
+    "partners": "Partners",
+    "contact": "Contact"
+  },
+  "AboutUs": {
+    "title": "Translate only this wonderful title and the navbar"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, es {Sp} en {En} other {Unknown}}"
+  }
+}
